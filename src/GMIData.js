@@ -1,0 +1,34 @@
+export const GMIData = [
+    {
+        imgSrc:"../gmi_USDC.svg",
+        Name:"USDC",
+        Deposit:0.36,
+        Withdrawl:0.17,
+        Price:1,
+        Rate:0.8679
+    },
+    {
+        imgSrc:"../gmi_wETH.svg",
+        Name:"wETH",
+        Deposit:0.57,
+        Withdrawl:0.63,
+        Price:1.60,
+        Rate:1.3847
+    },
+    {
+        imgSrc:"../gmi_wBTC.svg",
+        Name:"wBTC",
+        Deposit:0.68,
+        Withdrawl:0.52,
+        Price:1.74,
+        Rate:1.5056
+    },
+    {
+        imgSrc:"../gmi_USDC.svg",
+        Name:"USDC-USDT",
+        Deposit:1.3,
+        Withdrawl:0.17,
+        Price:1.07,
+        Rate:0.9231
+    },
+]
