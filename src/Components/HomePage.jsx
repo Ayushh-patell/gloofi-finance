@@ -149,7 +149,7 @@ const HomePage = () => {
   </div>
 </section>
       </div>
-      <img src="../home_glow.svg" alt="glow" className=' lg:block sm:hidden z-10 sm:w-1/2 w-full h-dvh object-cover sm:object-right object-left fixed sm:top-[20%] -top-[40%] sm:right-10 right-[0%] pointer-events-none' />
+      <img src="../home_glow.svg" alt=" " className=' lg:block sm:hidden z-10 sm:w-1/2 w-full h-dvh object-cover sm:object-right object-left fixed sm:top-[20%] -top-[40%] sm:right-10 right-[0%] pointer-events-none' />
 
     </>
   )
