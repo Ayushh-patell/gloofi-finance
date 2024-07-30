@@ -104,7 +104,7 @@ const Gmi = () => {
 <div>
           <div className=' w-full flex justify-between items-center py-2'>
           <p className=' py-2 col-span-2 text-[#b1b1b1]'>Asset</p>
-                    <div className=' py-2 col-span-2 flex justify-start items-center gap-1'> <img src="../gmi_wETH.svg" alt="wETH" className=' size-6 rounded-full object-contain object-center' /><p className=' font-medium'>wETH</p></div>            
+                    <div className=' py-2 col-span-2 flex justify-start items-center gap-1'> <img src="../gmi_USDC.svg" alt="USDC" className=' size-6 rounded-full object-contain object-center' /><p className=' font-medium'>USDC</p></div>            
           </div>
           <div className=' w-full flex justify-between items-center py-2'>
           <p className='  text-[#b1b1b1]'>Price</p>
