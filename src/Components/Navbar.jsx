@@ -39,8 +39,7 @@ const Navbar = () => {
               : `${address.slice(0,3)}..${address.slice(40)}`}
  </button>
  <MenuBtn/>
-</div>
-      
+</div> 
     </header>
   )
 }
