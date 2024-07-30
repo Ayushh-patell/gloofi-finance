@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './Components/HomePage';
 import Gmi from './Components/Gmi';
+import { Web3ModalProvider } from './Config/config';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -26,9 +28,11 @@ const router = createBrowserRouter([
 ])
 root.render(
   <React.StrictMode>
+  <Web3ModalProvider>
   <RouterProvider router={router}>
     <App />
   </RouterProvider>
+  </Web3ModalProvider>
   </React.StrictMode>
 );
 

@@ -5,14 +5,14 @@ const Gmi = () => {
   return (
     <>
       <section className=' pt-10 w-full'>
-        <div className=' bg-[#d1fee60d] rounded-lg p-7 px-8 flex justify-between items-center gap-5'>
+        <div className=' bg-[#d1fee60d] rounded-lg p-7 px-8 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
             <img src="../gmi.svg" alt=" gmi" className=' size-16 rounded-md' />
             <p className=' text-left pr-5'>GMI is an index token that contains a basket of optimally weighted GM assets, offering holders a highly diversified return by automatically optimizing risk-to-return ratios.</p>
             <button className=' px-5 py-2 text-white rounded-md border border-white bg-transparent whitespace-nowrap'>More Information <span><i className="fa-solid fa-arrow-right -rotate-45"></i></span></button>
         </div>
       </section>
       <section className=' my-6 w-full'>
-        <h2 className=' text-left text-4xl font-medium my-5'>Buy/Sell GMI</h2>
+        <h2 className=' text-left lg:text-4xl text-3xl font-medium my-5'>Buy/Sell GMI</h2>
         <div className=' grid lg:grid-cols-2 grid-cols-1 gap-5'>
             <div className=' bg-[#d1fee60d] rounded-lg p-5 '>
                 <div className=' flex justify-between items-center gap-2'>
@@ -99,6 +99,142 @@ const Gmi = () => {
           <p>0.22%</p>
 
         </div>
+
+<div className=' lg:hidden block'>
+<div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className=' py-2 col-span-2 text-[#b1b1b1]'>Asset</p>
+                    <div className=' py-2 col-span-2 flex justify-start items-center gap-1'> <img src="../gmi_wETH.svg" alt="wETH" className=' size-6 rounded-full object-contain object-center' /><p className=' font-medium'>wETH</p></div>            
+          </div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Price</p>
+                    <p>$1.00</p>
+          </div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Available</p>
+                    <p>9352.3604</p>
+          </div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Current</p>
+                    <p>32.66%</p>
+          </div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Target</p>
+                    <p>35%</p>
+          </div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Deposit Fee</p>
+                    <p>0.36%</p>
+          </div>
+          <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Withdrawl Fee</p>
+                    <p>0.17%</p>
+          </div>
+        </div>
+
+        <div aria-hidden className=' h-[2px] w-[95%] mx-auto bg-[#d1fee60d] my-5'/>
+
+        <div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className=' py-2 col-span-2 text-[#b1b1b1]'>Asset</p>
+          <div className=' py-2 col-span-2 flex justify-start items-center gap-1'> <img src="../gmi_wETH.svg" alt="wETH" className=' size-6 rounded-full object-contain object-center' /><p className=' font-medium'>wETH</p></div>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Price</p>
+          <p>$1.60</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Available</p>
+          <p>8332.1524</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Current</p>
+          <p>29.46%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Target</p>
+          <p>30%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Deposit Fee</p>
+          <p>0.59%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Withdrawl Fee</p>
+          <p>0.61%</p>
+        </div>
+        </div>
+
+        <div aria-hidden className=' h-[2px] w-[95%] mx-auto bg-[#d1fee60d] my-5'/>
+
+        <div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className=' py-2 col-span-2 text-[#b1b1b1]'>Asset</p>
+          <div className=' py-2 col-span-2 flex justify-start items-center gap-1'> <img src="../gmi_wBTC.svg" alt="wBTC" className=' size-6 rounded-full object-contain object-center' /><p className=' font-medium'>wBTC</p></div>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Price</p>
+          <p>$1.74</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Available</p>
+          <p>12669.1024</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Current</p>
+          <p>48.71%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Target</p>
+          <p>45%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Deposit Fee</p>
+          <p>0.68%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Withdrawl Fee</p>
+          <p>0.52%</p>
+        </div>
+        </div>
+
+        <div aria-hidden className=' h-[2px] w-[95%] mx-auto bg-[#d1fee60d] my-5'/>
+
+        <div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className=' py-2 col-span-2 text-[#b1b1b1]'>Asset</p>
+          <div className=' py-2 col-span-2 flex justify-start items-center gap-1'> <img src="../gmi_USDC.svg" alt="USDC" className=' size-6 rounded-full object-contain object-center' /><p className=' font-medium'>USDC-USDT</p></div>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Price</p>
+          <p>$1.07</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Available</p>
+          <p>2929.1024</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Current</p>
+          <p>69.03%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Target</p>
+          <p>5%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Deposit Fee</p>
+          <p>0.98%</p>
+        </div>
+        <div className=' w-full flex justify-between items-center py-2'>
+          <p className='  text-[#b1b1b1]'>Withdrawl Fee</p>
+          <p>0.22%</p>
+        </div>
+        </div>
+</div>
+
+
+
+
       </section>
     </>
   )
