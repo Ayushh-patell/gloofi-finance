@@ -14,8 +14,8 @@ const Navbar = () => {
     <header className=' flex justify-between items-center p-6 pt-10'>
 <div className=' flex justify-start items-center gap-5'>
 <Link to={"/"}>
-<img src="../new logo one.svg" alt="logo" className={` h-7 mr-4 ${window.innerWidth<1024 && " hidden"}`} />
-<img src="../new logo.png" alt="logo" className={` h-6 mr-4 ${window.innerWidth>1024 && " hidden"}`} />
+<img src="../new logo one.svg" alt="logo" className={` h-8 mr-4 ${window.innerWidth<1024 && " hidden"}`} />
+<img src="../new logo.png" alt="logo" className={` h-8 mr-4 ${window.innerWidth>1024 && " hidden"}`} />
 </Link>
     <nav className=' lg:flex hidden justify-start items-center lg:gap-7'>
         <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
