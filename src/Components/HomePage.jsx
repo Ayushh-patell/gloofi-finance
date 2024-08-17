@@ -88,7 +88,9 @@ const HomePage = () => {
             <p className=' text-[#b1b1b1]'>Leveraging GMI holdings is effortless with our lending and borrowing platform, providing users with the flexibility to capitalize on emerging market trends.</p>
           </div>
         </div>
+        <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
         <button className=' mx-auto w-fit px-4 py-2 rounded-lg bg-[#19fb80] font-medium text-base mt-6 text-black'>Read Documentation</button>
+        </a>
       </section>
 
     
@@ -141,7 +143,9 @@ const HomePage = () => {
 <section className=' w-full flex lg:flex-row flex-col justify-between lg:items-start text-center'>
   <div className=' lg:w-2/5 w-full flex flex-col justify-start items-start p-5'>
     <h2 className=' text-3xl font-medium text-white my-2 mb-5 text-left'>Find the answers you need about Gloofi.</h2>
+    <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
     <button className=' lg:block hidden w-fit px-5 py-2 rounded-lg bg-[#19fb80] font-medium text-base mt-6 text-black'>Read More</button>
+    </a>
   </div>
   <div className=' lg:w-3/5 w-full'>
     {FaqData.map((data,i) => (
