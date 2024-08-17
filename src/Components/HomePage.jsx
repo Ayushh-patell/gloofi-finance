@@ -97,7 +97,6 @@ const HomePage = () => {
       <img src="../home_boostmain.svg" alt="boost main" className=' lg:aspect-square lg:h-3/5 lg:w-auto w-full lg:px-0 px-20 lg:my-0 my-5 object-contain object-center' />
       <h2 className=' text-3xl font-medium my-2 mb-5'>Build to Boost</h2>
       <p className=' text-[#b1b1b1]'>GMI comprises gmBTC, gmETH, gmSOL, and gmUSDC-USDT. To keep the index at its target weights, fees are adjusted according to variations in the targeted pool weights.</p>
-      <button className=' mx-auto w-fit px-5 py-2 rounded-lg bg-[#19fb80] font-medium text-base mt-6 text-black'>Start Earning</button>
 
     </div>
 
