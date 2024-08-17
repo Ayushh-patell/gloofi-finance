@@ -33,7 +33,7 @@ function App() {
 <footer className=' bg-[#181b1a] py-12 mt-20'>
   <div className=' max-w-[1320px] xl:px-0 px-5 mx-auto flex lg:flex-row flex-col justify-between lg:items-start items-center'>
     <div className=' lg:w-1/2 w-full '>
-      <img src="../logo 1.svg" alt=" logo" className=' lg:h-8 h-6 object-contain object-center mt-3' />
+      <img src="../new logo one.svg" alt=" logo" className=' lg:h-8 h-6 object-contain object-center mt-3' />
     </div>
     <div className=' lg:w-1/2 w-full grid lg::grid-cols-3 grid-cols-2 gap-5 text-left'>
       <div className=' space-y-3'>
