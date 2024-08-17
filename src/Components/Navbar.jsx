@@ -14,14 +14,14 @@ const Navbar = () => {
     <header className=' flex justify-between items-center p-6 pt-10'>
 <div className=' flex justify-start items-center gap-5'>
 <Link to={"/"}>
-<img src="../logo.svg" alt="logo" className={` h-6 mr-4 ${window.innerWidth<1024 && " hidden"}`} />
+<img src="../logo 1.svg" alt="logo" className={` h-7 mr-4 ${window.innerWidth<1024 && " hidden"}`} />
 <img src="../mobile-logo.svg" alt="logo" className={` h-6 mr-4 ${window.innerWidth>1024 && " hidden"}`} />
 </Link>
     <nav className=' lg:flex hidden justify-start items-center lg:gap-7'>
         <p className=' text-white/50 text-sm'>Docs</p>
         <Link to={'/gmi'}><p className=' text-white/50 text-sm'>GMI</p></Link>
-        <p className=' text-white/50 text-sm'>Borrow(Soon)</p>
-        <p className=' text-white/50 text-sm'>Gloofi Presale(Soon)</p>
+        {/* <p className=' text-white/50 text-sm'>Borrow(Soon)</p>
+        <p className=' text-white/50 text-sm'>Gloofi Presale(Soon)</p> */}
     </nav>
 </div>
 

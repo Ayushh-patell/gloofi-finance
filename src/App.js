@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from 'react-router';
 import './App.css';
 import Navbar from './Components/Navbar';
+import { Link } from 'react-router-dom';
 
 function App() {
   const location = useLocation()
@@ -20,9 +21,13 @@ function App() {
 
 <div className=' lg:flex hidden fixed z-50  top-[200px] right-0 flex-col justify-center items-center gap-4 p-2 py-4 rounded-l-lg text-white text-lg bg-[#222725]'>
 <i className="fa-brands fa-x-twitter"></i>
-<i className="fa-brands fa-discord"></i>
+{/* <i className="fa-brands fa-discord"></i> */}
+<a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i className="fa-solid fa-book"></i>
-<i className="fa-brands fa-medium"></i>
+</a>
+<a href="http://t.me/gloofi" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
+<i class="fa-brands fa-telegram"></i>
+</a>
 </div>
 
 <footer className=' bg-[#181b1a] py-12 mt-20'>
@@ -33,13 +38,17 @@ function App() {
     <div className=' lg:w-1/2 w-full grid lg::grid-cols-3 grid-cols-2 gap-5 text-left'>
       <div className=' space-y-3'>
       <h6 className=' text-base text-white my-4 font-medium'>Product</h6>
-      <p className=' text-sm text-[#b1b1b1]'>Borrow (Soon)</p>
-      <p className=' text-sm text-[#b1b1b1]'>GMI (Soon)</p>
-      <p className=' text-sm text-[#b1b1b1]'>Gloofi PreSale (Soon)</p>
+      {/* <p className=' text-sm text-[#b1b1b1]'>Borrow (Soon)</p> */}
+      <Link to={'/gmi'}>
+      <p className=' text-sm text-[#b1b1b1]'>GMI</p>
+      </Link>
+      {/* <p className=' text-sm text-[#b1b1b1]'>Gloofi PreSale (Soon)</p> */}
       </div>
       <div className=' space-y-3'>
       <h6 className=' text-base text-white my-4 font-medium'>Resources</h6>
+      <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
       <p className=' text-sm text-[#b1b1b1]'>Documentation</p>
+      </a>
       <p className=' text-sm text-[#b1b1b1]'>Guide</p>
       </div>
       <div>
@@ -48,15 +57,19 @@ function App() {
       <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
     <i className="fa-brands fa-x-twitter"></i>    
       </div>
-      <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      {/* <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i className="fa-brands fa-discord"></i>
-      </div>
-      <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      </div> */}
+<a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-5'>
+<div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i className="fa-solid fa-book"></i>
       </div>
-      <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
-<i className="fa-brands fa-medium"></i>
+</a>
+<a href="http://t.me/gloofi" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-5'>
+<div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      <i class="fa-brands fa-telegram"></i>
       </div>
+</a>
     </div>
       </div>
     </div>

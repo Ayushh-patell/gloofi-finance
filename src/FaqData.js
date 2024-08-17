@@ -1,22 +1,22 @@
 export const FaqData = [
     {
-        question:"How are the target weights of GMI determined?",
-        answer:`Gloop&apos;s target rates are determined by a proprietary algorithm and will be adjusted often to constantly optimize for the ever changing market. The algorithm is fed tens of thousands of inputs including historical price data for each gm and the corresponding historical yield. After doing many calculations the algorithm outputs the optimal weighting of assets to achieve the highest expected return for a given level of risk based on cutting edge financial formulas. Building this algorithm wouldn&apos;t have been possible without the help and input of a Gloop advisor <a href="https://www.linkedin.com/in/peter-lee-8210a78/" target="_blank" class=" text-[#19fb80]">Peter Lee</a>, who has decades of experience managing billions of dollars on Wall Street.`
+        question:"How are the target weights for GMI calculated?",
+        answer:`Gloofi&apos;s target rates are set by a proprietary algorithm that frequently adjusts to optimize for the dynamic market. This algorithm processes tens of thousands of inputs, such as historical price data for each gm and corresponding historical yields. After extensive calculations, the algorithm determines the optimal asset weighting to achieve the highest expected return for a given risk level, using advanced financial formulas. The development of this algorithm was made possible with the guidance of Gloofi advisor <a href="https://www.linkedin.com/in/peter-lee-8210a78/" target="_blank" class=" text-[#19fb80]">Peter Lee</a>, who brings decades of experience managing billions of dollars on Wall Street.`
     },
     {
-        question:"Which assets will GMI contain?",
-        answer:"Initially, GMI will contain gmBTC, gmETH, gmSOL, gmUSDC-gmUSDT, and if demanded by the community, possibly an asset or two more in the future."
+        question:"What assets will be included in GMI?",
+        answer:"Initially, GMI will include gmBTC, gmETH, gmSOL, and gmUSDC-gmUSDT. Additional assets may be added in the future based on community demand."
     },
     {
-        question:"How does GMI achieve target weight?",
-        answer:"GMI achieves target weights by decreasing the deposit fees for assets that are below target and increasing deposit fees for assets that are above the target weight (and vice versa) the same way GLP works."
+        question:"How does GMI reach its target weight?",
+        answer:"GMI achieves its target weights by lowering deposit fees for assets that fall below the target and raising deposit fees for assets that exceed the target weight, similar to how GLP functions."
     },
     {
-        question:"Will GMI be the only product?",
-        answer:"Let the devs cook ;)"
+        question:"Will GMI be the sole product?",
+        answer:"Our developers are working on it!"
     },
     {
-        question:"Can GMI be Looped",
+        question:"Is it possible to loop GMI?",
         answer:"Soon"
     },
 ]

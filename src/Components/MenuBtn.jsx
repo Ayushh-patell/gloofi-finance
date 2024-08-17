@@ -36,21 +36,25 @@ setTimeout(() => {
             <p className={` py-2 px-3 hover:bg-[#d1fee60d] ${isActive?" block":" hidden"}`}>Guide</p>
 
             <Link onClick={() => {setisOpen(false)}} to={'/gmi'}><p className=' py-2'>GMI</p></Link>
-            <p className=' py-2'>Borrow (Soon)</p>
-            <p className=' py-2'>Gloofi Presale (Soon)</p>
+            {/* <p className=' py-2'>Borrow (Soon)</p>
+            <p className=' py-2'>Gloofi Presale (Soon)</p> */}
             <div className=' flex gap-4 justify-start items-center flex-wrap text-white py-2 pb-4'>
       <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
     <i className="fa-brands fa-x-twitter"></i>    
       </div>
-      <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      {/* <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i className="fa-brands fa-discord"></i>
-      </div>
-      <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      </div> */}
+<a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
+<div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i className="fa-solid fa-book"></i>
       </div>
-      <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
-<i className="fa-brands fa-medium"></i>
+</a>
+<a href="http://t.me/gloofi" target="_blank" rel="noopener noreferrer">
+<div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
+<i class="fa-brands fa-telegram"></i>
       </div>
+</a>
     </div>
 
         </div>
