@@ -1,6 +1,7 @@
 import React from 'react'
 import FaqItem from './Faqitem'
 import { FaqData } from '../FaqData'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -11,8 +12,10 @@ const HomePage = () => {
           <h1 className=' text-4xl font-medium'>Enhance your capital efficiency.</h1>
           <p className=' text-left my-5'>Gloofi is a protocol that provides an efficiently balanced GM asset index token along with a sophisticated platform for strategic GM leverage through lending and borrowing.</p>
           <div className=' flex justify-start items-center my-10 gap-5'>
-            <button className=' bg-[#19fb80] hover:bg-[#36c174] transition-all duration-500 rounded-lg text-black font-medium px-5 py-3'>Get GMI</button>
+            <Link to={"/gmi"} className=' w-full'><button className=' bg-[#19fb80] hover:bg-[#36c174] transition-all duration-500 rounded-lg text-black font-medium px-5 py-3'>Get GMI</button></Link>
+            <a href="http://docs.gloofi.finance" className=' w-full' target="_blank" rel="noopener noreferrer">
             <button className=' hover:border-[#19fb80] transition-all duration-500 border bg-transparent rounded-lg font-medium px-5 py-3 text-white'>Read Documentation</button>
+            </a>
           </div>
         </div>
         <div className=' w-1/2 lg:block hidden relative'>
