@@ -18,7 +18,9 @@ const Navbar = () => {
 <img src="../mobile-logo.svg" alt="logo" className={` h-6 mr-4 ${window.innerWidth>1024 && " hidden"}`} />
 </Link>
     <nav className=' lg:flex hidden justify-start items-center lg:gap-7'>
+        <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
         <p className=' text-white/50 text-sm'>Docs</p>
+        </a>
         <Link to={'/gmi'}><p className=' text-white/50 text-sm'>GMI</p></Link>
         {/* <p className=' text-white/50 text-sm'>Borrow(Soon)</p>
         <p className=' text-white/50 text-sm'>Gloofi Presale(Soon)</p> */}
