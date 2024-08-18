@@ -103,7 +103,7 @@ const Swapcard = () => {
             <div className=' flex justify-between items-center '>
                 <input readOnly={isBuy} type="text" placeholder='0.00' value={gmi} onChange={handlegmiCrypto} className=' bg-transparent outline-none focus:outline-none w-full font-medium placeholder:font-medium text-xl placeholder:text-xl' />
                 <div className=' w-fit flex justify-center items-center gap-1'>
-                    <img src='../gmi.svg' alt='GMI' className=' size-5 rounded-full' />
+                    <img src='../logo black bg.png' alt='GMI' className=' size-5 rounded-full' />
                     <p className=' text-lg text-white'>GMI</p>
                 </div>
             </div>
