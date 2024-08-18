@@ -6,7 +6,7 @@ const Gmi = () => {
     <>
       <section className=' pt-10 w-full'>
         <div className=' bg-[#d1fee60d] rounded-lg p-7 px-8 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
-            <img src="../gmi.svg" alt=" gmi" className=' size-16 rounded-md' />
+            <img src="../new logo.png" alt=" gmi" className=' size-16 rounded-md' />
             <p className=' text-left pr-5'>GMI is an index token that includes a basket of optimally weighted GM assets, providing holders with a highly diversified return through automatic optimization of risk-to-return ratios.</p>
             <button className=' px-5 py-2 text-white rounded-md border border-white bg-transparent whitespace-nowrap'>More Information <span><i className="fa-solid fa-arrow-right -rotate-45"></i></span></button>
         </div>

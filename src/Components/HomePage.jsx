@@ -19,7 +19,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className=' w-1/2 lg:block hidden relative'>
-          <img src="../home-img.png" alt="img" className=' ml-auto w-[75%] h-full object-contain object-center relative z-0' />
+          <img src="../new info graphic edit.png" alt="img" className=' ml-auto w-[75%] h-full object-contain object-center relative z-0' />
         </div>
       </section>
       <div className=' bg-[#d1fee60d] border border-[#262d2a] rounded-lg p-6 pr-24 my-10 mt-0 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-7'>
@@ -96,7 +96,7 @@ const HomePage = () => {
     
       <section className=' lg:h-dvh w-full relative lg:my-0 my-5'>
     <div className=' h-full w-full flex flex-col justify-center items-center gap-3 relative z-10 max-w-[1320px] mx-auto px-5'>
-      <img src="../home_boostmain.svg" alt="boost main" className=' lg:aspect-square lg:h-3/5 lg:w-auto w-full lg:px-0 px-20 lg:my-0 my-5 object-contain object-center' />
+      <img src="../infographic edit.png" alt="boost main" className=' lg:aspect-square lg:h-3/5 lg:w-auto w-full lg:px-0 px-20 lg:my-0 my-5 object-contain object-center' />
       <h2 className=' text-3xl font-medium my-2 mb-5'>Build to Boost</h2>
       <p className=' text-[#b1b1b1]'>GMI comprises gmBTC, gmETH, gmSOL, and gmUSDC-USDT. To keep the index at its target weights, fees are adjusted according to variations in the targeted pool weights.</p>
 
