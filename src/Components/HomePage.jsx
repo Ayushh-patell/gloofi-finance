@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
             <section className=' p-6 pb-0 flex justify-between items-center w-full pt-20'>
         <div className=' lg:w-1/2 w-full text-left'>
-          <img src="../home-name svj.svg" alt="svg" className=' h-[80px] my-10 mt-0' />
+          <img src="../homePage.png" alt=" " className=' h-[80px] my-10 mt-0' />
           <h1 className=' text-4xl font-medium'>Enhance your capital efficiency.</h1>
           <p className=' text-left my-5'>Gloofi is a protocol that provides an efficiently balanced GM asset index token along with a sophisticated platform for strategic GM leverage through lending and borrowing.</p>
           <div className=' flex justify-start items-center my-10 gap-5'>
@@ -75,7 +75,7 @@ const HomePage = () => {
         <div className=' w-full grid lg:grid-cols-2 grid-cols-1 gap-5 lg:h-[70%]'>
           <div className=' w-full rounded-lg bg-[#d1fee60d] p-5 text-left flex flex-col justify-between items-start'>
             <div className=' w-full h-3/5  rounded-lg mb-4'>
-              <img src="../homePage.png" alt="gmi" className=' w-full h-full object-cover object-center' />
+              <img src="../home_GMI new.svg" alt="gmi" className=' w-full h-full object-cover object-center' />
             </div>
             <h6 className=' text-2xl text-white font-medium my-2'>GMI</h6>
             <p className=' text-[#b1b1b1]'>The GM Index token functions as a basket, providing a curated selection of GM assets. It undergoes optimal rebalancing via a proprietary algorithm to improve the risk/return ratio.</p>
