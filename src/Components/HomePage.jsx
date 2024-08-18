@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
             <section className=' p-6 pb-0 flex justify-between items-center w-full pt-20'>
         <div className=' lg:w-1/2 w-full text-left'>
-          <img src="../homePage.png" alt=" " className=' h-[80px] my-10 mt-0' />
+          <img src="../home-name svj.svg" alt=" " className=' h-[80px] my-10 mt-0' />
           <h1 className=' text-4xl font-medium'>Enhance your capital efficiency.</h1>
           <p className=' text-left my-5'>Gloofi is a protocol that provides an efficiently balanced GM asset index token along with a sophisticated platform for strategic GM leverage through lending and borrowing.</p>
           <div className=' flex justify-start items-center my-10 gap-5'>
@@ -19,7 +19,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className=' w-1/2 lg:block hidden relative'>
-          <img src="../new info graphic edit.png" alt="img" className=' ml-auto w-[75%] h-full object-contain object-center relative z-0' />
+          <img src="../homePage.png" alt="img" className=' ml-auto w-[75%] h-full object-contain object-center relative z-0' />
         </div>
       </section>
       <div className=' bg-[#d1fee60d] border border-[#262d2a] rounded-lg p-6 pr-24 my-10 mt-0 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-7'>
