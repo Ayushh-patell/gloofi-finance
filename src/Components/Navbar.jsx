@@ -28,7 +28,7 @@ const Navbar = () => {
 </div>
 
 <div className=' flex justify-center items-center gap-1'>
-<NetworkBtn/>
+{isConnected && <NetworkBtn/>}
 <button
   onClick={() => {
     isConnected ? disconnect() : open();
