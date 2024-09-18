@@ -22,7 +22,7 @@ const HomePage = () => {
           <img src="../homePage.png" alt="img" className=' ml-auto w-[75%] h-full object-contain object-center relative z-0' />
         </div>
       </section>
-      <div className=' bg-[#d1fee60d] border border-[#262d2a] rounded-lg p-6 pr-24 my-10 mt-0 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-7'>
+      {/* <div className=' bg-[#d1fee60d] border border-[#262d2a] rounded-lg p-6 pr-24 my-10 mt-0 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-7'>
         <div className=' text-left text-4xl'>
           <p className=' text-[#19fb80]'>[Soon]</p>
           <p className=' text-2xl'>TVL</p>
@@ -42,7 +42,7 @@ const HomePage = () => {
       </div>
       <div className=' md:py-16 py-11 flex justify-center items-center'>
         <div className=''><img src="../Ethereum.png" alt="eth" className=' h-20' /></div>
-      </div>
+      </div> */}
 
       <section className=' py-12'>
         <h2 className=' text-left text-4xl font-medium my-5'>Why Gloofi?</h2>
