@@ -20,8 +20,10 @@ function App() {
 
 
 <div className=' lg:flex hidden fixed z-50  top-[200px] right-0 flex-col justify-center items-center gap-4 p-2 py-4 rounded-l-lg text-white text-lg bg-[#222725]'>
-<i className="fa-brands fa-x-twitter"></i>
 {/* <i className="fa-brands fa-discord"></i> */}
+<a href="https://x.com/Gloofifinance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
+<i className="fa-brands fa-x-twitter"></i>
+</a>
 <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i className="fa-solid fa-book"></i>
 </a>
@@ -54,12 +56,12 @@ function App() {
       <div>
       <h6 className=' text-base text-white my-4 font-medium'>Communities</h6>
     <div className=' flex gap-4 justify-start items-center flex-wrap text-white'>
+    <a href="https://x.com/Gloofifinance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-5'>
       <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
     <i className="fa-brands fa-x-twitter"></i>    
       </div>
-      {/* <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
-<i className="fa-brands fa-discord"></i>
-      </div> */}
+    </a>
+
 <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-5'>
 <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i className="fa-solid fa-book"></i>

@@ -39,12 +39,12 @@ setTimeout(() => {
             {/* <p className=' py-2'>Borrow (Soon)</p>
             <p className=' py-2'>Gloofi Presale (Soon)</p> */}
             <div className=' flex gap-4 justify-start items-center flex-wrap text-white py-2 pb-4'>
+            <a href="https://x.com/Gloofifinance" target="_blank" rel="noopener noreferrer">
       <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
     <i className="fa-brands fa-x-twitter"></i>    
       </div>
-      {/* <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
-<i className="fa-brands fa-discord"></i>
-      </div> */}
+    </a>
+
 <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer">
 <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i className="fa-solid fa-book"></i>
