@@ -27,7 +27,7 @@ function App() {
 <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i className="fa-solid fa-book"></i>
 </a>
-<a href="http://t.me/gloofi" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
+<a href="http://t.me/gloofifinance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i class="fa-brands fa-telegram"></i>
 </a>
 </div>
@@ -67,7 +67,7 @@ function App() {
 <i className="fa-solid fa-book"></i>
       </div>
 </a>
-<a href="http://t.me/gloofi" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-5'>
+<a href="http://t.me/gloofifinance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-5'>
 <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
       <i class="fa-brands fa-telegram"></i>
       </div>

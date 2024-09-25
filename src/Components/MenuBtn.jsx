@@ -50,7 +50,7 @@ setTimeout(() => {
 <i className="fa-solid fa-book"></i>
       </div>
 </a>
-<a href="http://t.me/gloofi" target="_blank" rel="noopener noreferrer">
+<a href="http://t.me/gloofifinance" target="_blank" rel="noopener noreferrer">
 <div className=' size-6 flex justify-center items-center bg-[#d1fee60d] rounded'>
 <i class="fa-brands fa-telegram"></i>
       </div>
