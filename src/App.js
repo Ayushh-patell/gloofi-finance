@@ -34,17 +34,39 @@ function App() {
 
 <footer className=' bg-[#181b1a] py-12 mt-20'>
   <div className=' max-w-[1320px] xl:px-0 px-5 mx-auto flex lg:flex-row flex-col justify-between lg:items-start items-center'>
-    <div className=' lg:w-1/2 w-full '>
-      <img src="../nav logo.png" alt=" logo" className=' lg:h-8 h-6 object-contain object-center mt-3' />
+    <div className=' w-full flex justify-center items-center flex-col gap-5'>
+      <img src="../nav logo.png" alt=" logo" className=' lg:h-20 sm:h-10 h-6 object-contain object-center mt-3' />
+
+      <div>
+      <h6 className=' text-lg text-white my-4 font-medium'>Communities</h6>
+    <div className=' flex gap-4 justify-start items-center flex-wrap text-white'>
+    <a href="https://x.com/Gloofifinance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-16'>
+      <div className=' size-16 flex justify-center items-center bg-[#d1fee60d] rounded'>
+    <i className=" text-2xl fa-brands fa-x-twitter"></i>    
+      </div>
+    </a>
+
+<a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-16'>
+<div className=' size-16 flex justify-center items-center bg-[#d1fee60d] rounded'>
+<i className=" text-2xl fa-solid fa-book"></i>
+      </div>
+</a>
+<a href="http://t.me/gloofifinance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-16'>
+<div className=' size-16 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      <i class=" text-2xl fa-brands fa-telegram"></i>
+      </div>
+</a>
     </div>
-    <div className=' lg:w-1/2 w-full grid lg::grid-cols-3 grid-cols-2 gap-5 text-left'>
+    </div>
+
+
+    </div>
+    {/* <div className=' lg:w-1/2 w-full grid lg::grid-cols-3 grid-cols-2 gap-5 text-left'>
       <div className=' space-y-3'>
       <h6 className=' text-base text-white my-4 font-medium'>Product</h6>
-      {/* <p className=' text-sm text-[#b1b1b1]'>Borrow (Soon)</p> */}
       <Link to={'/gmi'}>
       <p className=' text-sm text-[#b1b1b1]'>GMI</p>
       </Link>
-      {/* <p className=' text-sm text-[#b1b1b1]'>Gloofi PreSale (Soon)</p> */}
       </div>
       <div className=' space-y-3'>
       <h6 className=' text-base text-white my-4 font-medium'>Resources</h6>
@@ -74,7 +96,7 @@ function App() {
 </a>
     </div>
       </div>
-    </div>
+    </div> */}
   </div>
 </footer>
 
