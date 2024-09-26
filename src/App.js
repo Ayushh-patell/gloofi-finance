@@ -38,22 +38,22 @@ function App() {
       <img src="../nav logo.png" alt=" logo" className=' lg:h-20 sm:h-10 h-6 object-contain object-center mt-3' />
 
       <div>
-      <h6 className=' text-lg text-white my-4 font-medium'>Communities</h6>
+      {/*  <h6 className=' text-lg text-white my-4 font-medium'>Communities</h6> */}
     <div className=' flex gap-4 justify-start items-center flex-wrap text-white'>
     <a href="https://x.com/Gloofifinance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-16'>
-      <div className=' size-16 flex justify-center items-center bg-[#d1fee60d] rounded'>
-    <i className=" text-2xl fa-brands fa-x-twitter"></i>    
+      <div className=' sm:size-16 size-10 flex justify-center items-center bg-[#d1fee60d] rounded'>
+    <i className=" sm:text-2xl text-xl fa-brands fa-x-twitter"></i>    
       </div>
     </a>
 
 <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-16'>
-<div className=' size-16 flex justify-center items-center bg-[#d1fee60d] rounded'>
-<i className=" text-2xl fa-solid fa-book"></i>
+<div className=' sm:size-16 size-10 flex justify-center items-center bg-[#d1fee60d] rounded'>
+<i className=" sm:text-2xl text-xl fa-solid fa-book"></i>
       </div>
 </a>
 <a href="http://t.me/gloofifinance" target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center h-16'>
-<div className=' size-16 flex justify-center items-center bg-[#d1fee60d] rounded'>
-      <i class=" text-2xl fa-brands fa-telegram"></i>
+<div className=' sm:size-16 size-10 flex justify-center items-center bg-[#d1fee60d] rounded'>
+      <i class=" sm:text-2xl text-xl fa-brands fa-telegram"></i>
       </div>
 </a>
     </div>
