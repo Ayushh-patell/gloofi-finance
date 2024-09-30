@@ -1,7 +1,7 @@
 export const FaqData = [
     {
         question:"How are the target weights for GMI calculated?",
-        answer:`Gloofi&apos;s target rates are set by a proprietary algorithm that frequently adjusts to optimize for the dynamic market. This algorithm processes tens of thousands of inputs, such as historical price data for each gm and corresponding historical yields. After extensive calculations, the algorithm determines the optimal asset weighting to achieve the highest expected return for a given risk level, using advanced financial formulas. The development of this algorithm was made possible with the guidance of Gloofi advisor <a href="https://www.linkedin.com/in/peter-lee-8210a78/" target="_blank" class=" text-[#19fb80]">Peter Lee</a>, who brings decades of experience managing billions of dollars on Wall Street.`
+        answer:`Gloofi&apos;s target rates are set by a proprietary algorithm that frequently adjusts to optimize for the dynamic market. This algorithm processes tens of thousands of inputs, such as historical price data for each gm and corresponding historical yields. After extensive calculations, the algorithm determines the optimal asset weighting to achieve the highest expected return for a given risk level, using advanced financial formulas.`
     },
     {
         question:"What assets will be included in GMI?",
