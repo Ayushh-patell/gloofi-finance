@@ -34,9 +34,7 @@ const Navbar = () => {
     isConnected ? disconnect() : open();
   }}
  className=' w-fit px-5 py-2 rounded-md bg-transparent border border-white/10 text-sm text-white'>
-  {isConnecting
-            ? "CONNECTING.."
-            : !isConnected
+  { !isConnected
               ? "CONNECT"
               : `${address.slice(0,3)}..${address.slice(40)}`}
  </button>
