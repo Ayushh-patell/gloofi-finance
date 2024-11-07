@@ -21,13 +21,13 @@ function App() {
 
 <div className=' lg:flex hidden fixed z-50  top-[200px] right-0 flex-col justify-center items-center gap-4 p-2 py-4 rounded-l-lg text-white text-lg bg-[#222725]'>
 {/* <i className="fa-brands fa-discord"></i> */}
-<a href="https://x.com/Gloofifinance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
+<a href="https://x.com/Gloofinance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i className="fa-brands fa-x-twitter"></i>
 </a>
 <a href="http://docs.gloofi.finance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i className="fa-solid fa-book"></i>
 </a>
-<a href="http://t.me/gloofifinance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
+<a href="http://t.me/Gloofinance" target="_blank" rel="noopener noreferrer"  className=' flex justify-center items-center h-5'>
 <i class="fa-brands fa-telegram"></i>
 </a>
 </div>
