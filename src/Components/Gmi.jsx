@@ -8,10 +8,13 @@ const Gmi = () => {
         <div className=' bg-[#d1fee60d] rounded-lg p-7 px-8 flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5'>
             <img src="../logo black bg.png" alt=" gmi" className=' size-16 rounded-md' />
             <p className=' text-left pr-5'>GMI is an index token that includes a basket of optimally weighted GM assets, providing holders with a highly diversified return through automatic optimization of risk-to-return ratios.</p>
-            <button className=' px-5 py-2 text-white rounded-md border border-white bg-transparent whitespace-nowrap'>More Information <span><i className="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+           <a href="https://docs.gloofi.finance/gm-index" target="_blank" rel="noopener noreferrer">
+           <button className=' px-5 py-2 text-white rounded-md border border-white bg-transparent whitespace-nowrap'>More Information <span><i className="fa-solid fa-arrow-right -rotate-45"></i></span></button>
+           </a>
         </div>
       </section>
       <section className=' my-6 w-full'>
+      <input type="text"/>
         <h2 className=' text-left lg:text-4xl text-3xl font-medium my-5'>Buy/Sell GMI</h2>
         <div className=' grid lg:grid-cols-2 grid-cols-1 gap-5'>
             <div className=' bg-[#d1fee60d] rounded-lg p-5 '>
